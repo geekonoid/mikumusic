@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(162, 116, 205);
+    padding: -8px 0px 30px 0px;
+    animation-name: animato;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;
+}
+/*FUNZIONE PER AVERE UN BACKGROUND ANIMATO*/
+@keyframes animato {
+    50.0%  {
+        background-color:rgb(230, 28, 199);
+    }
+    50.0%  {
+        background-color:rgb(154, 0, 56);
+    }
+    50.0%  {
+        background-color:rgb(176, 0, 85);
+    }
+    50.0%  {
+        background-color:rgb(83, 11, 72);
+    }
+    50.0%  {
+        background-color:rgb(28, 3, 29);
+    }
+    50.0%  {
+        background-color:rgb(230, 28, 199);
+    }
+    50.0%  {
+        background-color:rgb(229, 78, 78);
+    }
+    50.0%  {
+        background-color:rgb(176, 0, 85);
+    }
+    50.0%  {
+        background-color:rgb(83, 11, 72);
+    }
+    50.0%  {
+        background-color:rgb(28, 3, 29);
+    }
+    
+}
+nav{
+    opacity: 0.7; 
+ }
+/*DRIDIMENSIONAMENTO  DI UNO SPAZIO PER AGGIUNGERE FOTO TESTO 
+PER LA PARTE ANIME */
+#contenitoreAnime{
+    position: relative;
+    top: 60%;
+    left: 30%;
+    background-color: rgb(165, 116, 164);
+    width: 40%;
+    height: 789px;
+    border-radius: 10px;
+}
+/*PERSONALIZZAZIONE DI UN BOTTONE PER LA PARTE ANIME */
+#btn1{
+    position: relative;
+    color:white;
+    top: 639px;
+    left: 175px;
+    width: 264px;
+    height: 72px;
+    background: linear-gradient(180deg, rgba(247, 152, 255, 0.95) 0.83%, #FF29DD 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
+
+
+
+/* PERSONALIZZAIONE PER LA PARTE VIDEOGIOCHI */
+#contenitoreGioco{
+    position: relative;
+    
+    top: 90%;
+    left: 30%;
+    
+    background-color: rgb(45, 36, 45);
+    width: 40%;
+    height: 789px;
+    border-radius: 10px;
+}
+/*PERSONALIZZAIONE BOTTONE PER LA PARTE VIDEOGIOCHI*/
+#btn2{
+    position: relative;
+    color:white;
+    top: 639px;
+    left: 175px;
+    width: 264px;
+    height: 72px;
+    background: linear-gradient(180deg, #590C60 0%, #9E36A5 58.65%, #897E87 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+}
