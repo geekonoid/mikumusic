@@ -2,7 +2,7 @@ body{
     background-color: rgb(162, 116, 205);
     padding: -8px 0px 30px 0px;
     animation-name: animato;
-    animation-duration: 3s;
+    animation-duration: 60s;
     animation-iteration-count: infinite;    
     animation-play-state: running;
 }
@@ -43,53 +43,85 @@ body{
 nav{
     opacity: 0.7; 
  }
-/*DRIDIMENSIONAMENTO  DI UNO SPAZIO PER AGGIUNGERE FOTO TESTO 
-PER LA PARTE ANIME */
-#contenitoreAnime{
-    position: relative;
-    top: 60%;
-    left: 30%;
-    background-color: rgb(165, 116, 164);
-    width: 40%;
-    height: 789px;
-    border-radius: 10px;
+
+
+
+/* SE VUOI COLORARE LE CERD IN VIOLA 
+ .card{
+    background-color: rgba(237, 165, 242, 0.747);
+    top:100px;
+    border-radius: 20px;
 }
-/*PERSONALIZZAZIONE DI UN BOTTONE PER LA PARTE ANIME */
-#btn1{
-    position: relative;
-    color:white;
-    top: 639px;
-    left: 175px;
-    width: 264px;
-    height: 72px;
-    background: linear-gradient(180deg, rgba(247, 152, 255, 0.95) 0.83%, #FF29DD 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
+*/
+
+
+.btn{
+  color:white;
+  background: linear-gradient(180deg, #590C60 0%, #9E36A5 58.65%, #897E87 100%);
+  border-radius: 50px;
 }
 
 
 
-/* PERSONALIZZAIONE PER LA PARTE VIDEOGIOCHI */
-#contenitoreGioco{
-    position: relative;
-    
-    top: 90%;
-    left: 30%;
-    
-    background-color: rgb(45, 36, 45);
-    width: 40%;
-    height: 789px;
-    border-radius: 10px;
-}
-/*PERSONALIZZAIONE BOTTONE PER LA PARTE VIDEOGIOCHI*/
-#btn2{
-    position: relative;
-    color:white;
-    top: 639px;
-    left: 175px;
-    width: 264px;
-    height: 72px;
-    background: linear-gradient(180deg, #590C60 0%, #9E36A5 58.65%, #897E87 100%);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 50px;
-}
+
+
+.footer-basic {
+    padding:40px 0;
+    background-color:#ffffff;
+    color:#4b4c4d;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+  
