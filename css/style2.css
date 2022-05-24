@@ -1,42 +1,42 @@
 body{
-    background-color: rgb(162, 116, 205);
+    background-color: #eabaf6;
     padding: -8px 0px 30px 0px;
     animation-name: animato;
-    animation-duration: 60s;
+    animation-duration: 15s;
     animation-iteration-count: infinite;    
     animation-play-state: running;
 }
 /*FUNZIONE PER AVERE UN BACKGROUND ANIMATO*/
 @keyframes animato {
     50.0%  {
-        background-color:rgb(230, 28, 199);
+        background-color:#e574bc;
     }
     50.0%  {
-        background-color:rgb(154, 0, 56);
+        background-color:#ea84c9;
     }
     50.0%  {
-        background-color:rgb(176, 0, 85);
+        background-color:#ef94db;
     }
     50.0%  {
-        background-color:rgb(83, 11, 72);
+        background-color:#f9b4ed;
     }
     50.0%  {
-        background-color:rgb(150, 24, 154);
+        background-color:#eabaf6;
     }
     50.0%  {
-        background-color:rgb(230, 28, 199);
+        background-color:#dabfff;
     }
     50.0%  {
-        background-color:rgb(229, 78, 78);
+        background-color:#c4c7ff;
     }
     50.0%  {
-        background-color:rgb(176, 0, 85);
+        background-color:#adcfff;
     }
     50.0%  {
-        background-color:rgb(83, 11, 72);
+        background-color:#96d7ff;
     }
     50.0%  {
-        background-color:rgb(28, 3, 29);
+        background-color:#7fd3ff;
     }
     
 }
@@ -57,8 +57,10 @@ nav{
 
 
 .btn{
-  color:white;
-  background: linear-gradient(180deg, #590C60 0%, #9E36A5 58.65%, #e08bd1 100%);
+  
+  color:rgb(196, 106, 83);
+  background: linear-gradient(360deg, rgba(205, 180, 219, 0.95) 4.2%, rgba(162, 210, 255, 0.54) 50.82%, rgba(255, 200, 221, 0.58) 82.21%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
 }
 
@@ -68,8 +70,9 @@ nav{
 
 .footer-basic {
     padding:40px 0;
-    background-color:#ffffff;
-    color:#4b4c4d;
+    padding:40px 0;
+  background-color:#bde0fe;
+  color:#d07bdf;
   }
   
   .footer-basic ul {
@@ -127,12 +130,20 @@ nav{
   }
   
 p{
-  font-size: 25px;
+  font-size: 20px;
   font-family: 'Nunito', sans-serif;
 }
 h1,h2{
+  font-size: 35px;
   font-family: 'Quicksand', sans-serif;
 }
-#mecha{
+#img{
+
   height: fit-content;
+  border-radius: 30px;
+}
+
+.card{
+  background-color: #ffdeea; 
+  border-radius: 30px;
 }
