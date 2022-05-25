@@ -120,7 +120,9 @@ p,li{
   font-family: 'Nunito', sans-serif;
 }
 
-
+.quadratino{
+  list-style-type: none;
+}
 
 
 h1,h2{
